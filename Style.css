@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #080700;
+    font-family: Tahoma, Arial, sans-serif;
+    background-image: url("../Portfolio/space-image3.jpg");
+    background-position: center;
+    margin: 5px;
+  }
+  /* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  header h1 {
+      font-weight: bold;
+      font-size: 38px;
+      margin: 0;
+      
+  }
+  header a {
+      text-decoration: none;
+      color: #080700;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+header nav ul li a {
+    margin:  80px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+section {
+    padding: 60px;
+    text-align: center;
+  }
+/* About Style */
+.about {
+   text-align: center;
+   width: 900px;
+   margin: 70px auto 30px auto;
+   color: #080700;
+
+}
+img {
+    margin: 35px auto 0 auto;
+  width: 35%;
+  float: left;
+}
+.about-me-bio{
+    padding: 35px;
+    float: left;
+    width: 65%;
+    margin-top: 10;
+}
+.about-me p {
+    font-size: 17px;
+    line-height: 1.3;
+}
+/* About Style */
+
+/* my work */
+.my-work {
+    font-size: 20px;
+    color: #080700;
+    line-height: 1.7;
+}
+/* my work */
+
+/* Photos */
+.my-photos {
+    font-size: 20px;
+    padding: 10px;
+    color: #080700;
+}
+/* photos */
+
+/* contact */
+.contact-me {
+    font-size: 20px;
+    padding: 0px;
+    color: #080700;  
+}
+.contact-me address {
+    margin: 25px 0;
+    line height: 1.7;
+    font-size: 15px;
+    font-style: normal;
+}
+/* contact me */
+footer {
+    width: 100%;
+    padding: 40px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 1.7;
+  }
+
+
+
