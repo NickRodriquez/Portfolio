@@ -2,6 +2,19 @@
     margin: 0;
     padding: 0;
 }
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #080700;
@@ -57,18 +70,28 @@ section {
    width: 900px;
    margin: 70px auto 30px auto;
    color: #080700;
+   position: center;
 
 }
 img {
-    margin: 35px auto 0 auto;
-  width: 35%;
-  float: left;
+    margin: 50px auto 0 auto;
+  width: 45%;
+  float: bottom;
+}
+.box {
+    width: 295px;
+    min-height: 15px;
+    margin: 10px auto;
+    border: solid 5px;
+    position: relative;
+    background: linear-gradient(#cf838394, #ac9a9a);
+
 }
 .about-me-bio{
-    padding: 35px;
+    padding: 45px;
     float: left;
     width: 65%;
-    margin-top: 10;
+    margin-top: 20px;
 }
 .about-me p {
     font-size: 17px;
@@ -77,6 +100,15 @@ img {
 /* About Style */
 
 /* my work */
+.box-wrapper {
+    width: 295px;
+    min-height: 15px;
+    margin: 10px auto;
+    border: solid 5px;
+    position: relative;
+    background: linear-gradient(#cf838394, #ac9a9a);
+
+}
 .my-work {
     font-size: 20px;
     color: #080700;
@@ -84,7 +116,24 @@ img {
 }
 /* my work */
 
+.box3 {
+    width: 150px;
+    min-height: 15px;
+    margin: 10px auto;
+    border: solid 3px;
+    position: relative;
+
+}
+
 /* Photos */
+.box1 {
+    width: 250px;
+    min-height: 15px;
+    margin: 10px auto;
+    border: solid 5px;
+    position: relative;
+    background: linear-gradient(#cf838394, #ac9a9a); 
+}
 .my-photos {
     font-size: 20px;
     padding: 10px;
@@ -93,6 +142,14 @@ img {
 /* photos */
 
 /* contact */
+.box2 {
+    width: 250px;
+    min-height: 15px;
+    margin: 10px auto;
+    border: solid 5px;
+    position: relative;
+    background: linear-gradient(#cf838394, #ac9a9a);
+}   
 .contact-me {
     font-size: 20px;
     padding: 0px;
@@ -112,6 +169,7 @@ footer {
     flex-wrap: wrap;
     line-height: 1.7;
   }
+  
 
 
 
