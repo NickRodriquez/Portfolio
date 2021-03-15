@@ -12,7 +12,7 @@ https://nickrodriquez.github.io/Portfolio/.
 
 Contribution
 
-Made By Nic
+Made By Nick
 
 About
 
